@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav{
+    max-width: 900px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+label.logo{
+    font-size: 35px;
+    color: black;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.logo-div{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-transform: capitalize;
+    padding: 0px 20px;
+}
+nav ul li a.active,a:hover{
+    color: #FF5400;
+}
+
+#checkbtn{
+    float:right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0px 10px;
+    }
+    nav ul{
+        display: none;
+    }
+    #checkbtn{
+        display: block;
+        margin-left: 430px;
+    }
+   .logo-div{
+        margin-left: -460px;
+   }
+}
