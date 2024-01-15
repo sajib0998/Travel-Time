@@ -7,6 +7,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* navbar section */
 nav{
     max-width: 900px;
     height: 80px;
@@ -22,6 +23,13 @@ label.logo{
 }
 .logo-div{
     display: flex;
+}
+.logo-div h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-div h1 span{
+    color: #FF5400;
 }
 nav{
     display: flex;
@@ -40,7 +48,9 @@ nav ul li a{
     text-decoration: none;
     color: var(--Dark-02, #424247);
     text-transform: capitalize;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 400;
 }
 nav ul li a.active,a:hover{
     color: #FF5400;
@@ -56,22 +66,56 @@ nav ul li a.active,a:hover{
 #check{
     display: none;
 }
+/* banner section */
+.banner-section{
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 
+}
+.banner-section h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-section p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding:0px 60px;
+}
+.banner-section-input{
+    display: flex;
+    justify-content: center;
+}
+.input-1,.input-2,.input-3{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    padding: 0px 20px;
+    margin-right: 10px;
+}
+.find-button{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+   color: white;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -123,6 +167,7 @@ nav ul li a.active,a:hover{
     body{
         margin: 0px 10px;
     }
+    /* navbar section */
     nav ul{
         display: none;
     }
@@ -132,5 +177,23 @@ nav ul li a.active,a:hover{
     }
    .logo-div{
         margin-left: -460px;
+   }
+   /* banner-section */
+   .banner-section h1{
+    font-size: 32px;
+   }
+   .banner-section p{
+    font-size: 14px;
+   }
+   .banner-section-input{
+    flex-direction: column;
+    gap: 10px;
+   }
+   .input-1,.input-2,.input-3{
+    width: 300px;
+   }
+   .find-button{
+    width: 300px;
+    margin-left: -8px;
    }
 }
