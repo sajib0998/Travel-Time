@@ -440,7 +440,7 @@ form input{
 footer section{
     height: 400px;
     background: rgba(19, 19, 24, 0.05);
-    margin-top: 400px;
+    margin-top: 0px;
 }
 .logo-second{
     display: flex;
@@ -653,12 +653,12 @@ footer section{
    }
    /* footer */
    .footer-div{
-    margin-top: 1240px;
+    margin-top: 1540px;
     padding-top: 30px;
     
    }
    footer section{
-    margin-top: -300px;
+    margin-top: -600px;
    }
    /* best offer */
    .offer-div{
