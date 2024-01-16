@@ -169,11 +169,83 @@ nav .unorder .list .active,.one:hover{
     font-weight: 400;
 }
 
+/* Destination section */
+.Destination-section{
+    max-width: 900px;
+    margin: 60px auto;
+}
+.Destination-section h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Destination-section p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 60px;
+}
+.first-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.first-div img{
+    width: 100%;
+    height: 200px;
+}
 
+.second-div{
+    display: grid;
+    grid-template-columns: 29% 40% 29%;
+    gap: 10px;
+}
+.second-div img{
+    width: 100%;
+    height: 200px;
+}
 
-
-
-
+.third-div{
+    display: grid;
+    grid-template-columns: 40% 59%;
+    gap: 10px;
+}
+.third-div img{
+    width: 100%;
+    height: 200px;
+}
+.container{
+    position: relative;
+}
+.one{
+   margin-top: -120px;
+   margin-bottom: 100px;
+}
+.one h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.two{
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
+.two h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.three{
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
+.three h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 
 
@@ -262,5 +334,24 @@ nav .unorder .list .active,.one:hover{
    }
    .tur-section img{
     width: 400px;
+   }
+   /* Destination-section */
+   .first-div{
+    grid-template-columns: auto;
+    padding: 0px 30px;
+   }
+   .Destination-section h1{
+    font-size: 30px;
+   }
+   .Destination-section p{
+    font-size: 13px;
+   }
+   .second-div{
+    grid-template-columns: auto;
+    padding: 10px 30px;
+   }
+   .third-div{
+    grid-template-columns: auto;
+    padding: 0px 30px;
    }
 }
