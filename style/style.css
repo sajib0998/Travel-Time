@@ -473,12 +473,42 @@ footer section{
     font-weight: 800;
 }
 
+/* best offer section */
+.best-offer-section{
+    max-width: 900px;
+    margin: 60px auto;
+}
 
-
-
-
-
-
+.offer-div{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.place-div{
+    background: silver;
+}
+.best-offer-section h1{
+    color: #131318;
+    font-size: 21.543px;
+    font-weight: 800;
+    text-align: center;
+}
+.bast-offer-p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px;
+}
 
 
 
@@ -540,6 +570,7 @@ footer section{
     flex-direction: column;
     align-items: center;
     margin: 60px 20px;
+    padding: 0px 220px;
    }
    .tur-section img{
     width: 400px;
@@ -547,29 +578,30 @@ footer section{
    /* Destination-section */
    .first-div{
     grid-template-columns: auto;
-    padding: 0px 30px;
+    padding: 0px 240px;
    }
    .Destination-section h1{
     font-size: 30px;
    }
    .Destination-section p{
     font-size: 13px;
+    padding: 20px 240px;
    }
    .second-div{
     grid-template-columns: auto;
-    padding: 10px 30px;
+    padding: 10px 240px;
    }
    .third-div{
     grid-template-columns: auto;
-    padding: 0px 30px;
+    padding: 0px 240px;
    }
    /* choose section */
    .choose-section .choose-p{
-    padding: 0px 40px;
+    padding: 0px 240px;
    }
    .choose-container{
     grid-template-columns: auto;
-    padding: 0px 30px;
+    padding: 0px 240px;
    }
    #choose-div-3{
     left: 0;
@@ -579,6 +611,7 @@ footer section{
     flex-direction: column;
     padding: 0px 35px;
    }
+   
    /* news latter section  */
    .Newsletter-section{
     flex-direction: column;
@@ -602,5 +635,13 @@ footer section{
     margin-top: 940px;
     padding-top: 30px;
     
+   }
+   /* best offer */
+   .offer-div{
+    flex-direction: column;
+    padding: 0px 240px;
+   }
+   .offer-div img{
+    width: 400px;
    }
 }
