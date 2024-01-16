@@ -84,6 +84,7 @@ nav .unorder .list .active,.one:hover{
     text-align: center;
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -124,6 +125,11 @@ nav .unorder .list .active,.one:hover{
     font-size: 16px;
     font-weight: 700;
 
+}
+.detail{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* populer tur section */
@@ -427,12 +433,14 @@ form input{
 
 .footer-div{
     max-width: 900px;
-    height: 60vh;
+    height: 50vh;
     margin: 0 auto;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 footer section{
+    height: 400px;
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 400px;
 }
 .logo-second{
     display: flex;
@@ -538,14 +546,15 @@ footer section{
     }
     #checkbtn{
         display: block;
-        margin-left: 430px;
+        margin-left: 420px;
     }
    .logo-div{
-        margin-left: -460px;
+        margin-left: -455px;
    }
    /* banner-section */
    .banner-section{
     margin: 0px 20px;
+    height: 100vh;
    }
    .banner-section h1{
     font-size: 32px;
@@ -570,7 +579,7 @@ footer section{
     flex-direction: column;
     align-items: center;
     margin: 60px 20px;
-    padding: 0px 220px;
+    padding: 0px 240px;
    }
    .tur-section img{
     width: 400px;
@@ -585,7 +594,7 @@ footer section{
    }
    .Destination-section p{
     font-size: 13px;
-    padding: 20px 240px;
+    padding: 20px 280px;
    }
    .second-div{
     grid-template-columns: auto;
@@ -609,9 +618,21 @@ footer section{
    /* perfect place section */
    .place-section{
     flex-direction: column;
-    padding: 0px 35px;
+    padding: 0px 240px;
    }
-   
+   .place-section-1st h1{
+    font-size: 30px;
+   }
+   .place-section-1st p{
+    font-size: 15px;
+    padding: 0px 15px;
+   }
+   .place-section-1st ul{
+    font-size: 16px;
+   }
+   .place-section-1st img{
+    width: 90%;
+   }
    /* news latter section  */
    .Newsletter-section{
     flex-direction: column;
@@ -632,9 +653,12 @@ footer section{
    }
    /* footer */
    .footer-div{
-    margin-top: 940px;
+    margin-top: 1540px;
     padding-top: 30px;
     
+   }
+   footer section{
+    margin-top: -300px;
    }
    /* best offer */
    .offer-div{
@@ -642,6 +666,6 @@ footer section{
     padding: 0px 240px;
    }
    .offer-div img{
-    width: 400px;
+    width: 100%;
    }
 }
