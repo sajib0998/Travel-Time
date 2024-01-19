@@ -106,6 +106,11 @@ nav .unorder .list .active,.one:hover{
 .banner-section-input{
     display: flex;
     justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 600px;
+    margin: 0px auto;
+    padding: 10px;
 }
 .input-1,.input-2,.input-3{
     width: 130px;
@@ -565,6 +570,7 @@ footer section{
    .banner-section-input{
     flex-direction: column;
     gap: 10px;
+    width: 350px;
    }
    .input-1,.input-2,.input-3{
     width: 300px;
